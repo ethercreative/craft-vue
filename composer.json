@@ -1,0 +1,13 @@
+{
+    "name": "ether/craft-vue",
+    "description": "A helper module for building Craft CMS plugins with Vue components",
+    "type": "craft-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tam",
+            "email": "hi@tam.sx"
+        }
+    ],
+    "require": {}
+}
