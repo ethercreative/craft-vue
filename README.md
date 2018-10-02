@@ -11,20 +11,20 @@ composer require ether/craft-vue
 
 ## Usage
 
-First, register the module in your plugins `init` function:
+First, register the module in your plugin's `init` function:
 
 ```php
 class Plugin extends \craft\base\Plugin
 {
 
-	public function init ()
-	{
-		parent::init();
-		
-		\ether\craftvue\CraftVue::register();
-		
-		// ...
-	}
+    public function init ()
+    {
+        parent::init();
+        
+        \ether\craftvue\CraftVue::register();
+        
+        // ...
+    }
 
 }
 ```
@@ -36,7 +36,7 @@ asset bundle):
 import MyComponent from '../vue/MyComponent.vue';
 
 Craft.booting(Vue => {
-	Vue.component('my-component', MyComponent);
+    Vue.component('my-component', MyComponent);
 });
 ```
 
