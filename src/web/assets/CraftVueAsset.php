@@ -60,7 +60,7 @@ JS;
 
 
 		$view->registerJs($jsBoot, View::POS_HEAD);
-		$view->registerJs($jsReady, View::POS_END);
+		$view->registerJs($jsReady, View::POS_LOAD);
 	}
 
 }
