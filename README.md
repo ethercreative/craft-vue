@@ -47,6 +47,9 @@ and `await` / `async` syntax.
 It's now possible to use `<my-component></my-component>` anywhere in the `#main` 
 div.
 
+> **Note**: If you're developing, remember to set `'useCompressedJs' => false` 
+to use Vue in development mode.
+
 ## Future Features
 - [ ] CLI for creating boilerplate for compatible Vue components with 
 hot-reloading and other fun stuff (something like `./craft vue/create [name]`, perhaps using [Laravel Mix](https://laravel-mix.com/)).
