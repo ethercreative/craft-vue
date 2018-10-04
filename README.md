@@ -11,16 +11,14 @@ composer require ether/craft-vue
 
 ## Usage
 
-First, register the module in your plugin's `init` function:
+First, register the module wherever you are rendering your Vue components:
 
 ```php
-class Plugin extends \craft\base\Plugin
+class Field extends \craft\base\Field
 {
 
-    public function init ()
+    public function getInputHtml ()
     {
-        parent::init();
-        
         \ether\craftvue\CraftVue::register();
         
         // ...
@@ -33,10 +31,8 @@ Then in your JS register your component (this should be a JS file imported by an
 asset bundle):
 
 ```js
-import MyComponent from '../vue/MyComponent.vue';
-
 Craft.booting(Vue => {
-    Vue.component('my-component', MyComponent);
+    Vue.component('my-component', require('../vue/MyComponent.vue'));
 });
 ```
 
