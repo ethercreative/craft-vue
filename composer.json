@@ -1,7 +1,7 @@
 {
     "name": "ether/craft-vue",
     "description": "A helper module for building Craft CMS plugins with Vue components",
-    "type": "craft-plugin",
+    "type": "yii-module",
     "license": "MIT",
     "authors": [
         {
