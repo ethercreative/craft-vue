@@ -49,4 +49,4 @@ div.
 
 ## Future Features
 - [ ] CLI for creating boilerplate for compatible Vue components with 
-hot-reloading and other fun stuff (something like `./craft vue/create [name]`).
+hot-reloading and other fun stuff (something like `./craft vue/create [name]`, perhaps using [Laravel Mix](https://laravel-mix.com/)).
