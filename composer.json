@@ -9,5 +9,9 @@
             "email": "hi@tam.sx"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "ether\\craftvue\\": "src/"
+        }
+    }
 }
