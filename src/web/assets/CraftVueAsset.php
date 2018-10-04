@@ -50,12 +50,12 @@ const CraftVue = async () => {
 	for (let i = 0, l = window.Craft._awaitVue.length; i < l; ++i)
 		await window.Craft._awaitVue[i](Vue);
 
-	new Vue.default({
+	new Vue({
 		el: '#main',
 	});
 };
 
-CraftVue().then({});
+CraftVue().then({}).catch(console.error);
 JS;
 
 
